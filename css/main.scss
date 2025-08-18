@@ -1,0 +1,252 @@
+@import "variables";
+@import "mixins";
+@import "btn";
+body,
+html {
+  position: relative;
+}
+.relative {
+  position: relative;
+}
+
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  max-width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+html {
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn,
+a,
+button {
+  display: inline-block;
+  outline: 0 !important;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.btn,
+a,
+a:focus,
+a:hover,
+button {
+  text-decoration: none;
+  outline-style: none;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 1;
+  font-family: $heading-font;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 64px;
+  line-height: 1;
+  font-family: $heading-font;
+  margin: 0;
+}
+
+h3 {
+  font-size: 30px;
+  text-transform: capitalize;
+  line-height: 0.9;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 24px;
+  font-family: "Poppins";
+  font-weight: 700;
+  margin: 0;
+}
+
+h5 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 16.8px;
+  font-weight: bold;
+}
+.pt-100 {
+  padding-top: 6.25rem;
+}
+.mb-80 {
+  margin-bottom: 5rem;
+}
+.mb35 {
+  margin-bottom: 2.188rem;
+}
+.mt35 {
+  margin-top: 2.188rem;
+}
+.pb-100 {
+  padding-bottom: 6.25rem;
+}
+body {
+  font-weight: normal;
+  line-height: 1.4 !important;
+  font-size: 14px;
+  font-family: $base-font;
+  background: $white-color;
+  position: relative;
+  z-index: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  min-height: 100%;
+  color: var(--bs-dark);
+}
+header {
+  padding-top: 30px;
+  padding-bottom: 85px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  color: $white-color;
+
+  .logo {
+    width: 121px;
+    flex: 0 0 121px;
+  }
+  .logoTwo {
+    width: 126px;
+    flex: 0 0 126px;
+  }
+  .btnWrap {
+    .btn {
+      margin-left: 15px;
+    }
+  }
+  .stellarnav {
+    width: auto;
+    ul {
+      li {
+        a {
+          font-size: 16px;
+          font-weight: 700;
+          color: $white-color;
+          text-transform: capitalize;
+          padding: 0 30px;
+          &:hover {
+            color: $base-color;
+          }
+        }
+      }
+    }
+    border-radius: 8rem;
+    -webkit-border-radius: 8rem;
+    -moz-border-radius: 8rem;
+    -ms-border-radius: 8rem;
+    -o-border-radius: 8rem;
+  }
+}
+.banner {
+  position: relative;
+  z-index: 2;
+  color: $white-color;
+  background: rgba(0, 0, 0, 1);
+  height: 100vh;
+
+  // &::before {
+  //   position: absolute;
+  //   left: 0;
+  //   top: 0;
+  //   width: 100%;
+  //   height: 100%;
+  //   background: rgba(0, 0, 0, 0.3);
+  //   content: "";
+  // }
+
+  .contentBox {
+    width: 100%;
+    max-width: 1004px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 60px;
+    p {
+      margin-top: 20px;
+    }
+  }
+}
+
+.abouts {
+  .wrapmain {
+    max-width: 75%;
+    width: 100%;
+    float: right;
+  }
+  .shadowtext {
+    font-family: $heading-font;
+    font-size: 128px;
+    background: linear-gradient(
+      to bottom,
+      rgba(9, 19, 38, 1) 0%,
+      rgba(9, 19, 38, 1) 22%,
+      rgba(9, 19, 38, 0.3) 61%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0.1;
+    padding-left: 8%;
+  }
+  .wrapBox {
+    background-image: url(../images/bg.webp);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    padding: 100px 82px;
+    color: $white-color;
+    width: 100%;
+    font-size: 22px;
+    z-index: 0;
+    color: #d9d9d9;
+    // &:before {
+    //   position: absolute;
+    //   left: 0;
+    //   right: 0;
+    //   top: 0;
+    //   bottom: 0;
+    //   top: 0;
+    //   margin: auto;
+    //   width: calc(100% - 35px);
+    //   height: calc(100% - 35px);
+    //   content: "";
+    //   background: $base-color;
+    //   z-index: -1;
+    // }
+  }
+  .floatpic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 33.333%;
+  }
+}
