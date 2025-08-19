@@ -69,14 +69,14 @@ h3 {
   text-transform: capitalize;
   line-height: 0.9;
   font-family: "Poppins";
-  font-weight: 700;
 }
 
 h4 {
-  font-size: 24px;
-  font-family: "Poppins";
-  font-weight: 700;
+  font-size: 32px;
+  font-family: $heading-font;
   margin: 0;
+  line-height: 0.9;
+  text-transform: capitalize;
 }
 
 h5 {
@@ -86,8 +86,8 @@ h5 {
 }
 
 h6 {
-  font-size: 16.8px;
-  font-weight: bold;
+  font-size: 18px;
+  font-family: "Rowdies Light";
 }
 .pt-100 {
   padding-top: 6.25rem;
@@ -194,7 +194,20 @@ header {
     }
   }
 }
-
+.shadowtext {
+  font-family: $heading-font;
+  font-size: 128px;
+  background: linear-gradient(
+    to bottom,
+    rgba(9, 19, 38, 1) 0%,
+    rgba(9, 19, 38, 1) 22%,
+    rgba(9, 19, 38, 0.3) 61%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.1;
+  padding-left: 8%;
+}
 .abouts {
   .wrapmain {
     max-width: 75%;
@@ -221,7 +234,7 @@ header {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
-    padding: 100px 82px;
+    padding: 100px 222px;
     color: $white-color;
     width: 100%;
     font-size: 22px;
@@ -248,5 +261,393 @@ header {
     left: 0;
     z-index: 1;
     width: 33.333%;
+  }
+  .floatpic2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 176px;
+  }
+}
+.text-primary {
+  color: $base-color-two !important;
+}
+.teams {
+  p {
+    margin: 0;
+    font-size: 22px;
+  }
+}
+.move-top {
+  position: relative;
+  top: -44%;
+}
+.methods {
+  position: relative;
+  z-index: 1;
+  &::before {
+    position: absolute;
+    left: 0;
+    top: 95px;
+    width: 100%;
+    height: 130px;
+    z-index: -1;
+    content: "";
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 20%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+  .move-top {
+    position: relative;
+    top: -33%;
+  }
+  p {
+    margin: 0;
+    font-size: 22px;
+    color: $body-color;
+  }
+  .box {
+    background-color: $white-color;
+    .leftPart {
+      width: 50%;
+      flex: 0 0 50%;
+    }
+    .rightPart {
+      width: 50%;
+      flex: 0 0 50%;
+      padding-top: 80px;
+      padding-right: 20px;
+      h4 {
+        color: $dark;
+      }
+      p {
+        margin: 10px 0;
+      }
+    }
+    .circles {
+      margin: 5rem 0;
+    }
+
+    .cover {
+      position: absolute;
+      left: 16%;
+      top: -23%;
+      width: 182px;
+      @include transitions;
+      img {
+        width: 100%;
+        // height: 151px;
+        height: 181px;
+        object-fit: cover;
+      }
+    }
+    .left {
+      -moz-transform: rotate(10deg);
+      -webkit-transform: rotate(10deg);
+      -o-transform: rotate(10deg);
+      -ms-transform: rotate(10deg);
+      transform: rotate(10deg);
+    }
+    .right {
+      left: auto;
+      right: 16%;
+      -moz-transform: rotate(-10deg);
+      -webkit-transform: rotate(-10deg);
+      -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+      transform: rotate(-10deg);
+      p {
+        font-size: 16px;
+      }
+    }
+    &:hover .cover {
+      transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+    }
+  }
+}
+.floatBtn {
+  position: absolute;
+  bottom: -31px;
+}
+
+.workshops {
+  position: relative;
+  z-index: 1;
+  &::before {
+    position: absolute;
+    background: url(../images/home/pattern.webp) repeat-x;
+    left: 0;
+    top: -36px;
+    content: "";
+    width: 100%;
+    height: 54px;
+    z-index: 0;
+  }
+  .move-top {
+    position: relative;
+    top: -6%;
+  }
+  li {
+    font-size: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    i {
+      color: $base-color;
+      margin-right: 10px;
+    }
+  }
+  .swiper {
+    width: 274px;
+    height: 671px;
+    margin: 0 0 0 90px;
+    position: relative;
+    top: 12%;
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 195px;
+    object-fit: cover;
+  }
+  .workshpRight {
+    height: 100%;
+  }
+  .grapic {
+    position: relative;
+    left: -10%;
+  }
+}
+.volunteer {
+  .col-lg-3:nth-child(odd) {
+    margin-top: 80px;
+  }
+  .box {
+    a {
+      display: block;
+      padding: 0 15px 40px;
+      position: relative;
+      color: $white-color;
+      z-index: 1;
+      img {
+        max-width: 239px;
+        height: 268px;
+        object-fit: cover;
+      }
+      &::before {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 60%;
+        height: 50%;
+        content: "";
+        background: url(../images/home/shape1.webp) bottom left no-repeat;
+        background-size: 100% auto;
+        z-index: -1;
+      }
+      &::after {
+        position: absolute;
+        right: 0;
+        bottom: -8px;
+        width: 90%;
+        height: 50%;
+        content: "";
+        background: url(../images/home/shape2.webp) bottom right no-repeat;
+        background-size: auto;
+        z-index: 0;
+      }
+      h4 {
+        font-size: 24px;
+        margin-top: 15px;
+        position: relative;
+        z-index: 1;
+      }
+      p {
+        position: relative;
+        z-index: 1;
+      }
+    }
+  }
+}
+.join {
+  .contentBox {
+    width: 100%;
+    max-width: 881px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 50%;
+    background: $white-color;
+    padding: 10% 10% 5%;
+    p {
+      margin-top: 20px;
+      font-size: 22px;
+      color: $body-color;
+    }
+    .floatBtn {
+      left: 0;
+      right: 0;
+    }
+  }
+}
+
+footer {
+  .box {
+    max-width: 551px;
+    .btn {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      height: 49px;
+      line-height: 49px;
+    }
+
+    .form-control {
+      height: 72px;
+      padding: 0 30px;
+      border: $white-color 1px solid;
+      border-radius: 50px;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+      -o-border-radius: 50px;
+      background: transparent !important;
+      color: $white-color;
+      padding-right: 200px;
+    }
+  }
+  .footWrap {
+    background: #e7ebf5;
+    padding: 40px 35px;
+    font-size: 18px;
+    color: $body-color;
+  }
+  h6 {
+    margin-bottom: 20px;
+  }
+  .links {
+    a {
+      color: $body-color;
+      margin-bottom: 10px;
+      text-transform: capitalize;
+      &:hover {
+        font-weight: bold;
+        color: #1a2130;
+      }
+    }
+  }
+  .link2 {
+    a {
+      color: $body-color;
+      margin-left: 15px;
+      text-transform: capitalize;
+      font-size: 14px;
+      font-weight: bold;
+      text-decoration: underline;
+      &:hover {
+        color: #1a2130;
+      }
+    }
+    li:first-child a {
+      margin-left: 0px;
+    }
+  }
+  .mr-2 {
+    margin-right: 5px;
+  }
+  .social a {
+    background: #c3d0eb;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+    margin-right: 10px;
+    color: #111c33;
+    -moz-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+    &:hover {
+      background: $base-color-two;
+      color: $white-color;
+      transform: none;
+      -webkit-transform: none;
+      -moz-transform: none;
+      -ms-transform: none;
+      -o-transform: none;
+    }
+  }
+}
+.search {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+  background: $white-color;
+  margin: 0 15px;
+}
+.wish a {
+  margin: 0 15px;
+  color: $white-color;
+  font-size: 22px;
+  position: relative;
+  small {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    background: $white-color;
+    @include fullRadius;
+    right: -12px;
+    top: 3px;
+  }
+}
+.cart a {
+  margin: 0 15px;
+  color: $white-color;
+  font-size: 22px;
+  position: relative;
+  small {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    background: $white-color;
+    @include fullRadius;
+    right: -12px;
+    top: 3px;
   }
 }

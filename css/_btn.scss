@@ -1,55 +1,21 @@
 .btn {
-  padding: 0 2.031rem;
+  padding: 0 3.031rem;
   text-transform: capitalize;
   box-shadow: none !important;
   color: $white-color;
-  line-height: 36px;
+  line-height: 62px;
   border: $base-color 0.063rem solid;
-  font-size: 13px;
-  font-family: "Poppins Medium";
+  font-size: 16px;
   background: $base-color;
 
   &:hover {
-    background: #002049;
+    background: $base-color-two;
     color: var(--bs-white);
+    border-color: $base-color-two;
   }
-  &.btn-primary {
-    color: #fff;
-    border-color: $white-color;
-  }
-  &.btn-lg {
-    padding: 0 2.719rem;
-  }
-  &.btn-outline-danger {
-    background: transparent;
-    border: $white-color 0.063rem solid;
-    color: $white-color;
-    &:hover {
-      background: #002049;
-      color: var(--bs-white);
-    }
-  }
-  &.btn-outline-dark {
-    color: #212529;
-    border-color: #212529;
-    background: transparent !important;
-    &:hover {
-      background: #212529 !important;
-      color: var(--bs-white);
-    }
-  }
-  &.btn-lg {
-    max-width: 248px;
-    width: 100%;
-    line-height: 44px;
-    &:hover {
-      background: #212529 !important;
-      color: var(--bs-white);
-    }
-  }
-  border-radius: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }

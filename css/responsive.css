@@ -1,4 +1,28 @@
 @media screen and (max-width: 3840px) {
+  .volunteer .box a img {
+    max-width: 290px;
+    height: 350px;
+  }
+  .volunteer .box a::before {
+    width: 70%;
+  }
+
+  .volunteer .box a::after {
+    right: 6%;
+    bottom: -5px;
+    width: 90%;
+  }
+  .shadowtext {
+    font-size: 121px;
+  }
+  .methods .move-top {
+    position: relative;
+    top: -29%;
+  }
+  .methods .box {
+    background-color: #fff;
+    margin-top: 80px !important;
+  }
 }
 
 @media screen and (max-width: 2560px) {
@@ -8,8 +32,85 @@
 
 @media screen and (max-width: 1680px) {
   .abouts .wrapBox {
-    padding: 100px 110px;
+    padding: 100px 144px;
     font-size: 16px;
+  }
+  .abouts .floatpic2 {
+    width: 130px;
+    top: 10%;
+  }
+  .teams p,
+  .methods p {
+    font-size: 16px;
+  }
+  .teams .move-top {
+    position: relative;
+    top: -22%;
+  }
+  h2 {
+    font-size: 58px;
+  }
+  .methods .box .cover {
+    width: 113px;
+  }
+  .circles {
+    max-width: 70px;
+  }
+  .methods .box .rightPart p {
+    font-size: 14px;
+  }
+  .methods .box .circles {
+    margin: 4rem 0 3rem;
+  }
+  .methods .box .rightPart {
+    padding-top: 30px;
+  }
+  .methods .box .cover {
+    width: 109px;
+  }
+  .btn {
+    font-size: 14px;
+  }
+  .methods .box .cover {
+    left: 15%;
+  }
+  .methods .box .right {
+    right: 15%;
+    left: auto;
+  }
+  .methods .box .cover img {
+    width: 100%;
+    height: 151px;
+    object-fit: cover;
+  }
+  .methods h4 {
+    font-size: 23px;
+  }
+  .shadowtext {
+    font-size: 85px;
+  }
+  .workshops .swiper {
+    width: 190px;
+    height: 430px;
+    margin: 0 0 0 59px;
+    top: 12%;
+  }
+  .workshops .swiper-slide img {
+    height: 130px;
+  }
+  .workshops .grapic {
+    position: relative;
+    left: -17%;
+  }
+  .volunteer .box a img {
+    max-width: 199px;
+    height: 218px;
+  }
+  footer .footWrap {
+    font-size: 16px;
+  }
+  footer .link2 a {
+    font-size: 11px;
   }
 }
 
