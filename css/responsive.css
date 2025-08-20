@@ -323,6 +323,15 @@
   .volunteer .box a p {
     text-align: left;
   }
+  .stellarnav.mobile ul {
+    position: relative;
+    display: none;
+    text-align: left;
+    background: #333;
+  }
+  .headRight {
+    flex-direction: row-reverse;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -396,6 +405,9 @@
     right: 4%;
     bottom: -7px;
     width: 57%;
+  }
+  h1 {
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 667px) {
@@ -502,6 +514,41 @@
   .social {
     flex-wrap: wrap;
     justify-content: center !important;
+  }
+  .logoTwo {
+    display: none;
+  }
+  header .logo {
+    width: 90px;
+    flex: 0 0 90px;
+  }
+  .search,
+  .wish a,
+  .cart a {
+    margin: 0 8px;
+  }
+  .abouts .wrapBox {
+    padding: 30px;
+    font-size: 14px;
+  }
+  .teams p,
+  .methods p,
+  .workshops li,
+  .join .contentBox p {
+    font-size: 14px;
+  }
+  .join {
+    margin-top: 0;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  footer .footWrap {
+    font-size: 14px;
+    padding: 20px;
+  }
+  footer .box .form-control {
+    font-size: 14px;
   }
 }
 

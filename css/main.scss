@@ -540,7 +540,12 @@ footer {
       -o-border-radius: 50px;
       background: transparent !important;
       color: $white-color;
-      padding-right: 200px;
+      padding-right: 151px;
+    }
+    .btn {
+      padding: 0 1.5rem;
+      line-height: 52px;
+      font-size: 14px;
     }
   }
   .footWrap {
