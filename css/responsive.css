@@ -1,27 +1,30 @@
 @media screen and (max-width: 3840px) {
   .volunteer .box a img {
-    max-width: 290px;
-    height: 350px;
+    max-width: 240px;
+    height: 271px;
   }
   .volunteer .box a::before {
-    width: 70%;
+    width: 61%;
   }
 
   .volunteer .box a::after {
-    right: 6%;
+    right: 28%;
     bottom: -5px;
     width: 90%;
   }
-  .shadowtext {
+  /* .shadowtext {
     font-size: 121px;
-  }
+  } */
   .methods .move-top {
     position: relative;
-    top: -29%;
+    top: -20%;
   }
   .methods .box {
     background-color: #fff;
-    margin-top: 80px !important;
+    margin-top: 110px !important;
+  }
+  .methods .box .circles {
+    margin: 5rem 0 3rem;
   }
 }
 
@@ -31,6 +34,9 @@
 }
 
 @media screen and (max-width: 1680px) {
+  h2 {
+    font-size: 50px;
+  }
   .abouts .wrapBox {
     padding: 100px 144px;
     font-size: 16px;
@@ -47,14 +53,11 @@
     position: relative;
     top: -22%;
   }
-  h2 {
-    font-size: 58px;
-  }
   .methods .box .cover {
     width: 113px;
   }
   .circles {
-    max-width: 70px;
+    max-width: 85px;
   }
   .methods .box .rightPart p {
     font-size: 14px;
@@ -63,24 +66,25 @@
     margin: 4rem 0 3rem;
   }
   .methods .box .rightPart {
-    padding-top: 30px;
+    padding-top: 50px;
   }
   .methods .box .cover {
-    width: 109px;
+    width: 136px;
   }
   .btn {
     font-size: 14px;
   }
   .methods .box .cover {
-    left: 15%;
+    left: 20%;
+    top: -35%;
   }
   .methods .box .right {
-    right: 15%;
+    right: 20%;
     left: auto;
   }
   .methods .box .cover img {
     width: 100%;
-    height: 151px;
+    height: 181px;
     object-fit: cover;
   }
   .methods h4 {
@@ -115,44 +119,465 @@
 }
 
 @media screen and (max-width: 1440px) {
+  .join {
+    margin-top: 8rem;
+  }
+  .volunteer .box a::after {
+    right: 6%;
+    bottom: -5px;
+    width: 90%;
+  }
+  .methods .box .cover {
+    width: 118px;
+    top: -23%;
+  }
+  .methods .box .cover {
+    left: 19%;
+  }
+  .methods .box .right {
+    right: 19%;
+    left: auto;
+  }
+  .methods .box .cover img {
+    width: 100%;
+    height: 159px;
+    object-fit: cover;
+  }
 }
 
 @media screen and (max-width: 1366px) {
+  .methods .box .cover {
+    width: 97px;
+    top: -10%;
+  }
+  .methods .box .cover img {
+    width: 100%;
+    height: 129px;
+    object-fit: cover;
+  }
+  .methods .box {
+    margin-top: 60px !important;
+  }
 }
 
 @media screen and (max-width: 1280px) {
+  h1 {
+    font-size: 52px;
+  }
+  .abouts .shadowtext,
+  .shadowtext {
+    font-size: 7vw;
+  }
+  .volunteer {
+    padding-top: 5rem;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  .methods .box .cover {
+    left: 16%;
+  }
+  .methods .box .right {
+    right: 16%;
+    left: auto;
+  }
+  header .stellarnav ul li a {
+    font-size: 14px;
+    padding: 0 8px;
+  }
+  .link2 {
+    flex-wrap: wrap;
+  }
+  footer .link2 a {
+    margin-left: 0;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
 }
 @media screen and (max-width: 1156px) {
+  .abouts .floatpic {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    z-index: 1;
+    width: 33.333%;
+  }
+  .methods .box .cover {
+    left: 29%;
+  }
+  .methods .box .right {
+    right: 29%;
+    left: auto;
+  }
+  .mt-5 {
+    margin-top: 1.5rem !important;
+  }
+  .teams {
+    padding-top: 0 !important;
+  }
+  .moveLeft {
+    position: relative;
+    left: 0;
+    padding: 0 !important;
+  }
+  .move-top {
+    text-align: center;
+  }
+  .mt-5.pt-5 {
+    padding-top: 0rem !important;
+    text-align: center;
+  }
+  .workshops .move-top {
+    text-align: left;
+  }
+  .workshops .workshpRight {
+    background-size: contain !important;
+  }
+  .volunteer .box a img {
+    max-width: 186px;
+    height: 203px;
+  }
+  .volunteer .box a h4 {
+    font-size: 22px;
+  }
+  .workshops li,
+  .join .contentBox p {
+    font-size: 16px;
+  }
+  .search,
+  .wish a,
+  .cart a {
+    margin: 0 10px;
+  }
+  header .stellarnav ul li a {
+    font-size: 13px;
+    padding: 0 6px;
+  }
+  h1 {
+    font-size: 42px;
+  }
 }
 @media screen and (max-width: 1024px) {
+  .methods .box .cover {
+    left: 26%;
+  }
+  .methods .box .right {
+    right: 26%;
+    left: auto;
+  }
 }
 
 @media screen and (max-width: 991px) {
+  .workshops .swiper-slide img {
+    height: 98px;
+  }
+  .workshops .swiper {
+    width: 144px;
+    height: 323px;
+  }
+  .volunteer .col-lg-3 {
+    margin-bottom: 50px;
+  }
+  .volunteer .col-lg-3:nth-child(odd) {
+    margin-top: 0px;
+  }
+  .volunteer .box a img {
+    max-width: 256px;
+    height: 273px;
+  }
+  .volunteer .box a::after {
+    right: 29%;
+    bottom: -10px;
+    width: 44%;
+  }
+  .volunteer .box a::before {
+    width: 54%;
+  }
+  .join img {
+    min-height: auto;
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+  }
+  .join .contentBox {
+    width: 85%;
+    max-width: 631px;
+    bottom: 70%;
+  }
+  footer .graphic3 {
+    display: none;
+  }
+  .abouts .wrapBox {
+    padding: 60px 91px;
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  .teams p {
+    text-align: center;
+  }
+  .volunteer .box a p {
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 850px) {
+  .methods .box .cover {
+    left: 21%;
+  }
+  .methods .box .right {
+    right: 21%;
+    left: auto;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .methods .box .rightPart {
+    padding-top: 38px;
+  }
+  .banner .contentBox {
+    padding: 0 15px;
+  }
+  h1 {
+    font-size: 38px;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  .methods .box .cover {
+    left: 18%;
+  }
+  .methods .box .right {
+    right: 18%;
+    left: auto;
+  }
+  .volunteer .box a::after {
+    right: 9%;
+    bottom: -10px;
+    width: 44%;
+  }
 }
-
 @media screen and (max-width: 767px) {
+  footer h5 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  footer .box {
+    max-width: 100%;
+    width: 100%;
+  }
 }
-
+@media screen and (max-width: 736px) {
+  .methods .box .cover {
+    left: 16%;
+  }
+  .methods .box .right {
+    right: 16%;
+    left: auto;
+  }
+  .btn {
+    padding: 0 2.5rem;
+    line-height: 52px;
+    font-size: 14px;
+  }
+  .workshops .swiper {
+    margin: 0 0 0 309px;
+    top: 23%;
+  }
+  .workshops .grapic {
+    position: relative;
+    left: 100px;
+  }
+  .volunteer .box a::after {
+    right: 4%;
+    bottom: -7px;
+    width: 57%;
+  }
+}
+@media screen and (max-width: 667px) {
+  .methods .box .cover {
+    left: 13%;
+  }
+  .methods .box .right {
+    right: 13%;
+    left: auto;
+  }
+  .volunteer .box a img {
+    max-width: 186px;
+    height: 223px;
+  }
+  .workshops .swiper {
+    margin: 0 0 0 31%;
+    top: 23%;
+  }
+  .workshops .grapic {
+    position: relative;
+    left: 2%;
+  }
+  .abouts .wrapmain {
+    max-width: 100%;
+    width: 100%;
+    float: right;
+  }
+  .abouts .floatpic {
+    position: static;
+    top: 0;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .abouts .shadowtext,
+  .shadowtext {
+    font-size: 9vw;
+  }
+}
 @media screen and (max-width: 575px) {
+  .methods .box .cover {
+    left: 10%;
+  }
+  .methods .box .right {
+    right: 10%;
+    left: auto;
+  }
+  .volunteer .box a img {
+    max-width: 80%;
+    width: 100%;
+    height: 223px;
+  }
+  .volunteer .box a img {
+    max-width: 85%;
+    height: 523px;
+  }
+  .volunteer .box a::before {
+    width: 74%;
+  }
+  .volunteer .box a::after {
+    background-size: 100% auto;
+  }
+  .volunteer .box a h4 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .methods .box {
+    margin-top: 60px !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+    text-align: center;
+  }
+  .methods .box .circles {
+    margin: 4rem 0 0;
+  }
+  .methods .box .cover img {
+    width: 100%;
+    height: 154px;
+    object-fit: cover;
+  }
+  .methods .box .cover {
+    left: 10%;
+  }
+  .methods .box .right {
+    right: 10%;
+    left: auto;
+  }
+  .methods .box .rightPart {
+    width: 100%;
+    flex: 0 0 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 50px;
+  }
+  .floatBtn {
+    position: absolute;
+    bottom: -31px;
+    left: 0;
+    right: 0;
+  }
+  .link2,
+  .social {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  .volunteer .box a img {
+    max-width: 85%;
+    height: 450px;
+  }
+  .workshops .grapic {
+    position: relative;
+    left: 0;
+  }
+  .abouts .shadowtext,
+  .shadowtext {
+    font-size: 11vw;
+  }
+  .methods .box .cover {
+    left: 2%;
+  }
+  .methods .box .right {
+    right: 2%;
+    left: auto;
+  }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 420px) {
+  .methods .box .cover {
+    left: -8%;
+  }
+  .methods .box .right {
+    right: -8%;
+    left: auto;
+  }
+  .workshops .swiper {
+    margin: 0 0 0 11%;
+    top: 14%;
+  }
+  .workshops .swiper {
+    width: 160px;
+    height: 351px;
+  }
+  .workshops .swiper-slide img {
+    height: 109px;
+  }
+  .workshops .grapic {
+    display: none;
+  }
+  .volunteer .box a img {
+    max-width: 85%;
+    height: 343px;
+  }
+  .volunteer .box a h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
 }
 
 @media screen and (max-width: 380px) {
+  .methods .box .cover {
+    left: -13%;
+  }
+  .methods .box .right {
+    right: -13%;
+    left: auto;
+  }
+  .volunteer .box a img {
+    height: 250px;
+  }
 }
 
 @media screen and (max-width: 320px) {
+  .methods .box .cover {
+    left: -25%;
+  }
+  .methods .box .right {
+    right: -25%;
+    left: auto;
+  }
 }

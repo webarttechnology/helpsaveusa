@@ -281,15 +281,20 @@ header {
 }
 .move-top {
   position: relative;
-  top: -44%;
+  top: -25%;
+}
+.moveLeft {
+  position: relative;
+  left: -12%;
 }
 .methods {
   position: relative;
+  padding-bottom: 8rem !important;
   z-index: 1;
   &::before {
     position: absolute;
     left: 0;
-    top: 95px;
+    top: 128px;
     width: 100%;
     height: 130px;
     z-index: -1;
@@ -393,7 +398,7 @@ header {
   }
   .move-top {
     position: relative;
-    top: -6%;
+    top: -5%;
   }
   li {
     font-size: 20px;
@@ -433,6 +438,10 @@ header {
   }
 }
 .volunteer {
+  padding-top: 8rem;
+  .move-top {
+    top: -6%;
+  }
   .col-lg-3:nth-child(odd) {
     margin-top: 80px;
   }
@@ -484,6 +493,7 @@ header {
   }
 }
 .join {
+  margin-top: 14rem;
   .contentBox {
     width: 100%;
     max-width: 881px;
@@ -494,7 +504,7 @@ header {
     margin: 0 auto;
     bottom: 50%;
     background: $white-color;
-    padding: 10% 10% 5%;
+    padding: 10% 4% 5%;
     p {
       margin-top: 20px;
       font-size: 22px;
@@ -508,6 +518,7 @@ header {
 }
 
 footer {
+  padding: 6rem 0 1.5rem;
   .box {
     max-width: 551px;
     .btn {
@@ -545,7 +556,6 @@ footer {
     a {
       color: $body-color;
       margin-bottom: 10px;
-      text-transform: capitalize;
       &:hover {
         font-weight: bold;
         color: #1a2130;
@@ -601,7 +611,7 @@ footer {
   }
   .graphic3 {
     position: absolute;
-    top: -60%;
+    top: -33%;
     left: 14.333%;
   }
 }
@@ -654,5 +664,29 @@ footer {
     @include fullRadius;
     right: -12px;
     top: 3px;
+  }
+}
+.vert-move {
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
+}
+.vert-move {
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
   }
 }
