@@ -132,6 +132,23 @@ header {
     rgba(0, 0, 0, 0) 80%,
     rgba(0, 0, 0, 0) 100%
   );
+  .stellarnav .menu-toggle span.bars span {
+    background: #fff;
+  }
+  .stellarnav .call-btn-mobile,
+  .stellarnav .close-menu,
+  .stellarnav .location-btn-mobile,
+  .stellarnav .menu-toggle {
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .stellarnav .icon-close:after,
+  .stellarnav .icon-close:before {
+    width: 16px;
+    top: 50%;
+    border-bottom: solid 3px #fff;
+    right: 10px;
+  }
 
   .logo {
     width: 100px;
