@@ -43,15 +43,15 @@
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-11 d-flex flex-wrap justify-content-between align-items-center">
-                    <span class="logo"><a href="index.html"><img src="images/help-save-usa-logo.webp"
+                    <span class="logo"><a href="index.php"><img src="images/help-save-usa-logo.webp"
                                 alt="help-save-usa-logo" loading="lazy" class="img-fluid" /></a></span>
 
 
                     <div class="d-flex justify-content-end align-items-center headRight">
                         <nav class="stellarnav">
                             <ul>
-                                <li class="#"><a href="#">Home</a></li>
-                                <li><a href="#">About Us</a></li>
+                                <li class="#"><a href="index.php">Home</a></li>
+                                <li><a href="about.php">About Us</a></li>
                                 <li><a href="#">Teams</a></li>
                                 <li><a href="#">Get Involve</a></li>
                                 <li><a href="#">Workshops</a></li>
