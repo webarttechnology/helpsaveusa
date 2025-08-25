@@ -54,7 +54,7 @@
                                 <li><a href="about.php">About Us</a></li>
                                 <li><a href="#">Teams</a></li>
                                 <li><a href="#">Get Involve</a></li>
-                                <li><a href="#">Workshops</a></li>
+                                <li><a href="workshops.php">Workshops</a></li>
                                 <li><a href="#">Contact us</a></li>
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="#">Shop</a></li>

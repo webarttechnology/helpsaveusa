@@ -144,6 +144,23 @@
             },
         });
     </script>
+    <script>
+        var swiper = new Swiper(".crime .mySwiper", {
+        slidesPerView: 3,
+        loop:true,
+        spaceBetween: 30,
+        speed: 1200,
+        pagination: {
+            el: ".crime .swiper-pagination",
+            clickable: true,
+        },
+        //  autoplay: {
+        //     delay: 5000,
+        //     disableOnInteraction: false, // Continue autoplay after user interaction
+        //     reverseDirection: true, 
+        // },
+        });
+    </script>
     <script src="js/stellarnav.min.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function ($) {

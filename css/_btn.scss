@@ -13,6 +13,16 @@
     color: var(--bs-white);
     border-color: $base-color-two;
   }
+  &.btn-outline-primary {
+    color: $base-color;
+    background: transparent;
+    border-color: $base-color;
+    &:hover {
+      background: $base-color-two;
+      color: var(--bs-white);
+      border-color: $base-color-two;
+    }
+  }
   border-radius: 50px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;

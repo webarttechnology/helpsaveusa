@@ -39,15 +39,16 @@
   }
   .abouts .wrapBox {
     padding: 100px 144px;
-    font-size: 16px;
+    font-size: 18px;
   }
+
   .abouts .floatpic2 {
     width: 130px;
     top: 10%;
   }
   .teams p,
   .methods p {
-    font-size: 16px;
+    font-size: 18px;
   }
   .teams .move-top {
     position: relative;
@@ -116,6 +117,17 @@
   footer .link2 a {
     font-size: 11px;
   }
+  .wedo,
+  .about {
+    font-size: 18px;
+  }
+  .wedo .effect:after {
+    height: 113px;
+  }
+  .crime .swiper-slide-active img {
+    height: 12.13rem;
+    object-fit: cover;
+  }
 }
 
 @media screen and (max-width: 1440px) {
@@ -142,6 +154,16 @@
     width: 100%;
     height: 159px;
     object-fit: cover;
+  }
+  .wedo .box h4 {
+    font-size: 16px;
+  }
+  .wedo .box {
+    font-size: 14px;
+  }
+  .wedo .py-5 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
   }
 }
 
@@ -192,6 +214,9 @@
     margin-left: 0;
     margin-right: 15px;
     margin-bottom: 10px;
+  }
+  .about {
+    font-size: 16px;
   }
 }
 
